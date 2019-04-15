@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TODO List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css">-->
+</head>
+<body>
+    <form action="/list_tasks" method="POST">
+    <!-- picks up the name tag to create the json data -->    
+    <input id="addTask" name="task">
+    <button type="submit" id="add">Add</button>
+    <div id="list"></div>
+    <script type="text/javascript" src="main.js"></script>
+    </form>
+</body>
+</html>
