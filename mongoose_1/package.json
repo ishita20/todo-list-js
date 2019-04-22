@@ -1,0 +1,16 @@
+{
+  "name": "mongoose_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.5.2",
+    "validator": "^10.11.0"
+  }
+}

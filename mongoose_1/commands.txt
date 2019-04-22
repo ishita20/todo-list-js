@@ -1,0 +1,17 @@
+npm init -y
+npm install mongoose validator
+
+make schema with referencing-
+https://stackoverflow.com/questions/18001478/referencing-another-schema-in-mongoose
+
+require one from multiple exports-
+https://stackoverflow.com/questions/16631064/declare-multiple-module-exports-in-node-js
+
+module.exports in node-
+https://stackabuse.com/how-to-use-module-exports-in-node-js/
+
+mongoose-
+https://medium.freecodecamp.org/introduction-to-mongoose-for-mongodb-d2a7aa593c57
+
+saving nested schemas-
+https://stackoverflow.com/questions/33662606/saving-nested-schemas-in-mongoose
