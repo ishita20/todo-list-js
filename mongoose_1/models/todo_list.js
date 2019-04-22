@@ -2,8 +2,9 @@ let mongoose = require('mongoose');
 
 //embedded document
 let todoSchema = new mongoose.Schema({
-    task: String
-});
+    task: String,
+},
+{ _id : false });// to disable id for every item in the array
 
 let userSchema = new mongoose.Schema({
     user:{

@@ -1,6 +1,7 @@
 let mongoose = require('mongoose');
 
 let models = require('./models/todo_list.js')
+//let userTodoList = require('./models/todo_list.js').todoModel;
 let userTodoList = models.todoModel;
 let completeTodoList = models.userModel;
 
